@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Moryah</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="icon" href="#" />
+    <script src="interactions.js" type="text/javascript"></script>
+  </head>
+
+
+  <body>
+
+    <!--Navigation Bar-->
+    <div class="menu">
+        <nav role="navigation" class="nav-menu">
+            <a href="index.html" class="nav-items">Home</a>
+            <a href="about.html" class="nav-items">About</a>
+            <a href="contact.html" class="nav-items">Contact</a>
+        </nav>
+    </div>
+
+    <!--Profile-->
+    <div class="profile">
+        <section class="introduction">
+            <div class="profile-pic"></div>
+            <div class="self-intro-container">
+                <div class="self-intro">
+                    <h2>Meet <b>Moryah Ng</b></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <div class="socialmedia">
+                    <h3> Connect with me</h3>
+                    <a href="https://www.facebook.com/moryah.ng/"><img class="socialmedia-icon" src ="./images/facebook-icon.png"><a>
+                    <a href="hhttps://www.instagram.com/moryah"><img class="socialmedia-icon"  src="./images/instagram-icon.png"><a>
+                    <a href="https://www.linkedin.com/in/moryah-pui-suen-ng-939579189/"><img class="socialmedia-icon"  src="./images/linkedin-icon.png"><a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Quote -->
+    <div class="quote">
+        <h1>I believe you have to be willing to be misunderstood
+        <br>if you’re going to innovate.</h1>
+        <br>
+        <p>Jeff Bezos, Founder of Amazon</p>
+    </div>
+
+    <!--Timeline-->
+    <div class="timeline">
+    <h3>My Career Timeline</h3>  
+      <div class="timeline-container">
+        <div class="timeline-stop" onclick="openTab('graduate')"></div>
+        <div class="timeline-road"></div>
+        <div class="timeline-stop" onclick="openTab('teacher')"></div>
+        <div class="timeline-road"></div>
+        <div class="timeline-stop" onclick="openTab('operation')"></div>
+        <div class="timeline-road"></div>
+        <div class="timeline-stop" onclick="openTab('coding')"></div>
+        <div class="timeline-road"></div>
+        <div class="timeline-current" onclick="openTab('xccelerate')""></div>
+        <div class="timeline-road"></div>
+        <div class="timeline-stop" onclick="openTab('system')""></div>
+        <div class="timeline-details" id="graduate" style="display: none">
+        <h3>Education</h3>
+        <p>Hong Kong Baptist University
+          <br>Bachelor's degree in Visual Arts
+          <br>2012 – 2016</p>
+        </div>
+        <div class="timeline-details" id="teacher" style="display: none">        
+          <h3>Art Teacher</h3>
+          <p>Designed curriculum and taught students aged 4-12
+            <br>Managed the centreʼs class schedule and roster for colleagues
+            <br>Communicated with parents to maintain a good relationship
+            <br>Supervised part-time staffs</p></div>
+        <div class="timeline-details" id="operation" style="display: none">
+          <h3>Management</h3>
+          <p>Supervised and trained new staff for operation flow and customer service
+          <br>Ensure employees have appropriate training and other resources to perform their jobs
+          <br>Generated monthly reports of centres’ performance</p>
+        </div>
+        <div class="timeline-details" id="coding" style="display: none">
+          <h3>Ed-tech</h3>
+          <p>Designing an operation workflow for the CS team, Sales team, administration
+          <br>Setting up automation and reducing errors in manual processes
+          <br>Exploring partnership with schools and companies
+          <br>Make sure each project is on schedule and in line with the proposals
+          <br>Developing ideas and managing project</p>
+        </div>
+        <div class="timeline-details" id="xccelerate" style="display: none">
+          <h3>Coding Bootcamp</h3>
+          <p>Here I am.</p>
+        </div>
+        <div class="timeline-details" id="system" style="display: none">
+          <h3>Goal</h3>
+          <p>Build up an education operation system
+            <br>Open a start-up
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!--Photo Album-->
+    <div class="album">
+      <h3>Things I do</h3>
+      <div class="album-container">
+        <div class="album-photo" id="kayaking">
+          <img src="./images/photo-kayaking.jpg" height="100%" width="100%">
+        </div>
+        <div class="album-photo" id="cat">
+          <img src="./images/photo-cat.jpg" height="100%" width="100%">
+        </div>
+        <div class="album-photo" id="corgi">
+          <img src="./images/photo-corgi.jpg" height="100%" width="100%">
+        </div>
+        <div class="album-photo" id="painting">
+          <img src="./images/photo-painting.jpg" height="100%" width="100%">
+        </div>
+        <div class="album-photo" id="cooking">
+          <img src="./images/photo-cooking.jpg" height="100%" width="100%">
+        </div>
+        <div class="album-photo" id="arts">
+          <img src="./images/photo-arts.jpg" height="100%" width="100%">
+        </div>
+        <div class="album-photo" id="aquarium">
+          <img src="./images/photo-aquarium.jpg" height="100%" width="100%">
+        </div>
+        <div class="album-photo" id="workout">
+          <img src="./images/photo-workout.jpg" height="100%" width="100%">
+        </div>
+      </div>
+    </div>
+  </body>
+       
+  <!--Footer-->
+  <footer>
+    <p>© 2021 Moryah Ng. All right reserved.</p>
+  </footer>
+    
